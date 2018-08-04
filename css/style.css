@@ -1,0 +1,56 @@
+    #header {
+        color: pink;
+        background-color: green;
+        width: 300px;
+        height: 200px;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #instruction {
+        color:blueviolet;
+        background: pink;
+        width: 500px;
+        height: 300px;
+        font-size: 19px;
+
+    }
+
+    #randomNumber {
+        float: middle;
+        color: darkorchid;
+        background: goldenrod;
+        width: 300px;
+        height: 150px;
+        font-size: 45px;
+    }
+
+    #score {
+        float: center;
+        color: darkorchid;
+        background: gold;
+        width: 150px;
+        height: 80px;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+
+    #gains, #losses {
+        clear: center;
+    
+    }
+
+    .card {
+        clear: both;
+
+    }
+
+    #totalScore {
+        color: magenta;
+        background: lightgreen;
+        width: 300px;
+        height: 100px;
+        font-size: 40px;   
+    }
+
