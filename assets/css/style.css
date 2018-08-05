@@ -10,7 +10,7 @@
 
     #todo {
         color:blueviolet;
-        background: pink;
+        background: white;
         width: 500px;
         height: 300px;
         font-size: 19px;
@@ -18,7 +18,7 @@
     }
 
     #randomNumber {
-        float: middle;
+        float: left;
         color: darkorchid;
         background: goldenrod;
         width: 300px;
@@ -27,7 +27,7 @@
     }
 
     #score {
-        float: center;
+        float: left;
         color: darkorchid;
         background: gold;
         width: 150px;
@@ -40,7 +40,12 @@
         clear: center;
     
     }
-
+    .gem {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
     .card {
         clear: both;
 

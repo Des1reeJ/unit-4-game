@@ -15,21 +15,18 @@
 <body>
     <header>
         <div id="header">Crystal Collector Game</div>
-        <br>
-        <br>
-        <section id="To Do">
+        <br><br>
+        <section id="todo">
             <p>
                 <i>When a game is initialized, each jewel is assigned a number between 1 and 14. 
                     On every attempt, your task is to click one of the four dazzling jewel images, 
                     and they will increase the total score based on the
-                    assigned value each is given.</p>
-                </i>
+                    assigned value each is given.</p></i>
                 <br><br>
-                <p>
-                    <strong>If the score you recieve coincides with the random number, you have numberical victory! 
-                        However, if the score recieved exceeds numerical value, you lose!</strong></p>
-                    <br><br>
-                    <p>Get to counting!</p>
+                <p>If the score you recieve coincides with the random number, you have numberical victory! 
+                        However, if the score recieved exceeds numerical value, you lose!</p>
+                <br><br>
+                
         </section>
 
     </header>
@@ -38,7 +35,7 @@
     <br>
     <br>
     <main>
-        <div id="randomNumber"></div>
+        <div id="matchNumber"></div>
         <div id="score">
             <div id="displayMsg"></div>
             <div id="gains"></div>
@@ -47,10 +44,10 @@
         </div>
         <br>
         <div class="card">
-            <input type="image" src="assets/images/rubyred_PNG36.png" class="gemButton" value="red" alt="red gem">
-            <input type="image" src="assets/images/blueblue.jpg" class="gemButton" value="blue" alt="blue gem">
-            <input type="image" value="yellow" src="assets/images/rubyyellow.png" class="gemButton" alt="yellow gem">
-            <input type="image" src="assets/images/rubygreen.jpg" class="gemButton" value="green" alt="green gem">
+            <input type="image" src="assets/images/smallred.png" class="gemButton" value="red" id="red" alt="red gem">
+            <input type="image" src="assets/images/smallblue.png" class="gemButton" value="blue" id="blue" alt="blue gem">
+            <input type="image" value="yellow" src="assets/images/smallyellow.png" class="gemButton" id="yellow" alt="yellow gem">
+            <input type="image" src="assets/images/smallgreen.png" class="gemButton" value="green" id="green" alt="green gem">
         </div>
 
         The total score is:
@@ -65,7 +62,7 @@
     <!-- JQuery Lib Import -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js">
     </script>
 </body>
 
